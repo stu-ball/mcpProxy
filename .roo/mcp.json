@@ -1,0 +1,24 @@
+{
+	"mcpServers": {
+		"gofastmcp": {
+			"type": "streamable-http",
+			"url": "https://gofastmcp.com/mcp",
+			"headers": {},
+			"disabled": false,
+			"timeout": 60,
+			"alwaysAllow": [
+				"SearchFastMcp"
+			],
+			"disabledTools": []
+		},
+		"proxy": {
+			"type": "streamable-http",
+			"url": "http://localhost:8490/mcp",
+			"headers": {},
+			"disabled": false,
+			"timeout": 60,
+			"alwaysAllow": [],
+			"disabledTools": []
+		}
+	}
+}
